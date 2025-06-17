@@ -1,9 +1,278 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="xfop2OZ7slueiaCsxTZN">
-    <mxGraphModel>
+    <mxGraphModel dx="1866" dy="2237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GdNANga79ISarl82104w-1" value="Audio File Input&lt;br&gt;(.wav, .mp3, .m4a, .dat)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-1" target="GdNANga79ISarl82104w-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-3" target="GdNANga79ISarl82104w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-3" target="GdNANga79ISarl82104w-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-3" value="BACKEND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-4" target="GdNANga79ISarl82104w-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-4" value="Displays the Transcript" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-6" value="Save to .pdf/.docx./.txt" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#FF0A9A);fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-17" target="GdNANga79ISarl82104w-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-7" value="Prompt + Summarizations+actions" style="ellipse;whiteSpace=wrap;html=1;align=left;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-8" target="GdNANga79ISarl82104w-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-8" value="Exit" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="380" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-4" target="GdNANga79ISarl82104w-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-4" target="GdNANga79ISarl82104w-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="520" y="330" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-19" target="GdNANga79ISarl82104w-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-19" target="GdNANga79ISarl82104w-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-19" value="Summarization + Classification into Action , Decision, DoC, Tasks, Status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="840" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-7" target="GdNANga79ISarl82104w-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="370" as="targetPoint" />
+            <mxPoint x="620" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-17" target="GdNANga79ISarl82104w-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-17" value="BACKEND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-21" target="GdNANga79ISarl82104w-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-21" value="Audio File is received" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-24" target="GdNANga79ISarl82104w-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-24" value="File gets converted to .wav" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-27" target="GdNANga79ISarl82104w-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-27" value=".wav file gets chunked into frame of 60 secs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-29" target="GdNANga79ISarl82104w-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-29" value="Each chunk is transcribed (OpenAi&#39;s Faster/WhisperModel, large -v3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-31" target="GdNANga79ISarl82104w-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-31" value="append(transcripts)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="354" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-34" target="GdNANga79ISarl82104w-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-34" value="return transcript and transcript path(locally as of now)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="505" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-35" target="GdNANga79ISarl82104w-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-35" value="Stores the transcript path in&amp;nbsp; Audiofile DB (filename, mimetype, processed=true/false)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="505" y="-200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-41" value="transcript path so that the AI model can refer to the path, and can f.read the content" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-320" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-43" target="GdNANga79ISarl82104w-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-43" value="Processed = true&lt;div&gt;error msg = none&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="505" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-45" target="GdNANga79ISarl82104w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-45" value="New html page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="294" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-49" target="GdNANga79ISarl82104w-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-49" value="Refers to the transcript path" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-52" target="GdNANga79ISarl82104w-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-52" value="The entire transcription is then put into the Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-53" target="GdNANga79ISarl82104w-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-53" value="Path redirects it to transcript text file" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-55" target="GdNANga79ISarl82104w-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-55" value="Classified into actions , decision, task status etc. + user fed prompt reply" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="960" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-57" target="GdNANga79ISarl82104w-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-57" value="has default prompts for meetings, brainstorming, sales call + user fed special prompts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="870" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-60" target="GdNANga79ISarl82104w-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-60" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Model :-&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(206, 145, 120); background-color: rgb(31, 31, 31);&quot;&gt;mistral:7b-instruct-q4_0&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(206, 145, 120); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hosted in docker:-&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204); background-color: rgb(31, 31, 31);&quot;&gt;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;http://localhost:11434/api/generate&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="770" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-64" target="GdNANga79ISarl82104w-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-64" value="New HTML Webpage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="560" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-69" target="GdNANga79ISarl82104w-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-69" value="SAVE and EXIT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="GdNANga79ISarl82104w-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="60" as="sourcePoint" />
+            <mxPoint x="95" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1035" y="-450" />
+              <mxPoint x="50" y="-450" />
+              <mxPoint x="50" y="260" />
+              <mxPoint x="100" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-70" value="SAVES it to a .txt format&amp;nbsp; and goes to home" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-74" target="GdNANga79ISarl82104w-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-74" value="Push to PMT (Clickup / Notion)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="260" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-76" target="GdNANga79ISarl82104w-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-76" target="GdNANga79ISarl82104w-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-76" value="BACKEND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdNANga79ISarl82104w-80" target="GdNANga79ISarl82104w-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-80" value="Actions Decisions are seperated using regex" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#110C3B);gradientColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-82" target="GdNANga79ISarl82104w-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-82" target="GdNANga79ISarl82104w-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-82" value="Connecting with Notion through DB ID (Database created there ) along with Notion Token" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#110C3B);gradientColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-85" target="GdNANga79ISarl82104w-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-85" value="Json Payload created comprising of action , decisions, task completion&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#110C3B);gradientColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-89" value="Pushed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#110C3B);gradientColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-91" value="Success Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#110C3B);gradientColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-93" value="Redirects to Notion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="238" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-94" value="For the time being we hardcoded the DB ID and Token , but the DB ID will be user fed ." style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="-340" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-97" target="GdNANga79ISarl82104w-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-97" value="SUCCESS MESSAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdNANga79ISarl82104w-99" target="GdNANga79ISarl82104w-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="1100" />
+              <mxPoint x="20" y="1100" />
+              <mxPoint x="20" y="300" />
+              <mxPoint x="40" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdNANga79ISarl82104w-99" value="Again for other file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
